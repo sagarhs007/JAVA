@@ -26,9 +26,7 @@ class FizzBuzz {
         System.out.println("Enter the n value: ");
         int n = sc.nextInt();
         List<String> result = fizzBuzz(n);
-         for(String s:result){
-            System.out.println(s);
-         }
+            System.out.println(result);
          sc.close();
     }
 }
